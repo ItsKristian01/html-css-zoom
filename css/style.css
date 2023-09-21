@@ -10,13 +10,15 @@ img {
     max-width: 100%;
 }
 
+/* CONTAINER */
 .container {
     width: 100%;
     height: 100vh;
-    padding: 50px;
+    padding: 70px;
     background-color: black;
+    position: relative;
 }
-
+/* IMAGE GRID */
 .grid {
     display: flex;
     width: calc(100% / 7);
@@ -26,4 +28,43 @@ img {
     margin-right: 2px;
     margin-bottom: 5px;
     padding: 2px;
+}
+/* IMAGE GRID */
+
+.speaker-view {
+    color: white;
+    background-color:hsl(0deg 0% 29.02%) ;
+    width: 8rem;
+    border-radius: .3rem;
+    padding: .4rem;
+    position: absolute;
+    right: 40px;
+    top: 7px;
+}
+
+.maximaze {
+    color: white;
+    background-color:hsl(0deg 0% 29.02%) ;
+    width: 1.8rem;
+    border-radius: .3rem;
+    padding: .4rem;
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+/* NAME SECTION */
+
+.mute {
+    background-color:rgba(0, 0, 0, 3);
+    color: white;
+    width: 7rem;
+    padding: .3rem;
+    position: relative;
+}
+
+.name  {
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
 }
